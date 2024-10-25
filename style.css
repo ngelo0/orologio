@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: slategrey;
+    font-family: 'Segoe UI Black', sans-serif;
+}
+
+.container {
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.clock {
+    font-size: 88px;
+    margin: 20px 0;
+}
+
+.timer, .countdown {
+    margin-top: 30px;
+}
+
+#timer-display, #countdown-display {
+    font-size: 36px;
+    margin: 20px 0;
+}

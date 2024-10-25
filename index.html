@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Orologio Digitale, Timer e Conto alla Rovescia</title>
+    <link rel="icon" href="icon.png" type="icon/png">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Orologio Digitale</h1>
+        <div class="clock" id="clock"></div>
+
+        <div class="timer">
+            <h2>Timer</h2>
+            <div id="timer-display">00:00:00</div>
+            <button id="start-timer">Inizia Timer</button>
+            <button id="stop-timer" disabled>Ferma Timer</button>
+            <button id="reset-timer" disabled>Resetta Timer</button>
+        </div>
+
+        <div class="countdown">
+            <h2>Conto alla Rovescia</h2>
+            <input type="number" id="countdown-input" placeholder="Secondi" />
+            <button id="start-countdown">Inizia Conto alla Rovescia</button>
+            <button id="stop-countdown" disabled>Ferma Conto alla Rovescia</button>
+            <button id="reset-countdown" disabled>Resetta Conto alla Rovescia</button>
+            <div id="countdown-display">00:00</div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
